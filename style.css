@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: yellow;
+    font-style: italic;
+}
+.pizza{
+    height: 30px;
+}
+.italian{
+    color: yellowgreen;
+}
+.bigpizza{
+    height: 800px;
+}
+.paragraph{
+    color: yellowgreen;
+    text-align: center;
+}
+.card-title{
+    color: yellowgreen;
+}
+.card-text{
+    color: yellowgreen;
+}
+.order{
+    color: black
+}
+.deliver{
+    color: yellowgreen;
+}
+.page-header{
+    color: yellowgreen;
+}
+.h6{
+    color: yellowgreen;
+}
+.col-xs-12{
+    color: yellow;
+}
+.footer{
+    color: chocolate;
+}

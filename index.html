@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <h1>WELCOME TO AMAIZING PIZZA </h1>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <!-- <a class="nav-item nav-link  href="#home">Home </a> -->
+      <a class="nav-item nav-link" href="#home">Home</a>
+      <a class="nav-item nav-link" href="#menu">Menu</a>
+      <a class="nav-item nav-link" href="#about">About us</a>
+      <a class="nav-item nav-link" href="#contact">Contact us</a>
+    </div><br>
+  <img class="pizza" src="/pizza (1).png" alt="">
+  <h2 class="italian">
+      ITALIAN PIZZA PALACE
+  </h2>
+  <img class="bigpizza" src="/p4.jpeg">
+<p class="paragraph">The pizza palace is an industry leader in the quick service delivery pizza game.<br> serving hot oven-fresh pizza with its signature all-natural ketchup and using only the freshest indgredients.<br> The homemade pizza dough is 
+  produced in-house daily  and is another reason why the pizza at The pizza palace always taste better and we have plenty "valeu-for-money" option that  keep our satisfied customers coming back time after time.</p><br>
+  <h3>
+    OREDER HERE
+  </h3><br>
+  <form class="form-group" id=" custom-pizza">
+    <div class="order">
+      <div  class="col-mid-4 col-xs-9">
+        <div class="card">
+          <img src="/p3.jpeg" alt="" srcset="">
+          <div class="card-body">
+            <h4 class="card-title">toppings</h4>
+            <p class="card-text">choose toppings:</p>
+            <select required class="form-control" id="toppings">
+              <option></option>
+              <option value="pepporoni">pepperoni(100)</option>
+              <option value="sausage">sausage(150)</option>
+              <option value="mushrooms">mushrooms(150)</option>
+              <option value="chicken">chicken (150)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+    <button type="submit" class="order" id="submit-pizza">place order</button>
+    <input type="number" id="amount" placeholder="number of pizza"required>
+  </form>
+  <div class="col-xs-4" id="price-content">
+    <h5 class="page-header">cart</h5>
+    <h6 class="h6">price: ksh <span id="final-cost"></span></h6><br><br>
+    <div id="deliver" class="deliver">
+      <h7>would you like us to deliver youre pizza for ksh.150 transport?</h7><br>
+      <form id="address-form">
+        <div class="col-xs-6">
+          <label for="firts name"></label>
+          <input id="location" type="text" size="40" placeholder="Enter where you live..." required />
+                        <button class="btn btn-dark complete" type="submit">Enter</button>
+                        <h8><span id="delivery-option"></span></h8>
+                    </div>
+                </form>
+            </div><br>
+            <button type="btn" class="btn btn-dark" id="checkout-btn">Checkout</button><br><br>
+            <div id="order-details" class="col-xs-12">
+                <ul id="pizza-details"><strong>Your order is: </strong></ul>
+                <h9 id="pizza-details">Thank you and Welcome again!</h9>
+            </div>
+        </div>
+        <footer id="contact" class="footer" size="240px">
+            <a class="footer-link" href="https://www.linkedin.com/in/saramunini"><i class="fab fa-linkedin"></i></a>
+            <a class="footer-link" href="https://twitter.com/pixel_tiny"><i class="fab fa-twitter-square"></i></a>
+            <p class="copyright"> © 2021 The Pizza Palace </p>
+        </footer>
+        <script src="js/jQuery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/scripts.js"></script>
+    </div>
+</body> 
+</html>
